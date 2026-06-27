@@ -22,9 +22,9 @@ http.createServer((req, res) => { res.writeHead(200); res.end('Bot is running ‚ú
   console.log(`üåê Keep-alive server running on port ${PORT}`);
 });
 
-const BOT_OWNER_IDS  = ['1224722940701048927'];
+const BOT_OWNER_IDS  = ['1224722940701048927','1399878101436989554'];
 const BOT_TOKEN      = process.env.BOT_TOKEN;
-const CLIENT_ID      = '1511509960335425626';
+const CLIENT_ID      = '1370090798586269806';
 const LOG_CHANNEL_ID = '1513261574012407858';
 
 const PROXY_BOTS = ['282859044593598464'];
