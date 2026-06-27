@@ -25,7 +25,7 @@ http.createServer((req, res) => { res.writeHead(200); res.end('Bot is running âœ
 const BOT_OWNER_IDS  = ['1224722940701048927','1399878101436989554'];
 const BOT_TOKEN      = process.env.BOT_TOKEN;
 const CLIENT_ID      = '1370090798586269806';
-const LOG_CHANNEL_ID = '1513261574012407858';
+const LOG_CHANNEL_ID = '1520404061743218773';
 
 const PROXY_BOTS = ['282859044593598464'];
 
@@ -33,11 +33,6 @@ const PROTECTION = { serverSettings: true, antiRaid: false, antiBots: true, botR
 const LIMITS     = { bans: 10, channelDeletes: 2, roleDeletes: 2, massbanWindow: 5000, massbanCount: 3, channelCreateWindow: 10000, channelCreateCount: 3, mentionWindow: 10000, mentionCount: 3 };
 
 const LOG_EMOJIS = [
-  '<:by_ez_137:1514763870198173797>',
-  '<:13PaimonThink:1491152797280895118>',
-  '<:by_ez_38:1473583670496596019>',
-  '<a:by_ez_37:1514646707923718241>',
-  '<a:ezshadow:1355368577829441697>',
 ];
 function getRandLogEmoji() { return LOG_EMOJIS[Math.floor(Math.random() * LOG_EMOJIS.length)]; }
 
